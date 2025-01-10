@@ -1,7 +1,17 @@
 # Banking - Investment Analysis and Solutions
 YOU CAN CHECK OUT MY [PROJECT NOTEBOOKS](https://github.com/khoapham1002/Banking-Investment-Optimization-Framework/tree/main/notebooks) FIRST!
 
-## Projects Overview
+## Table of Contents
+
+- [Overview](#overview)
+- [Tools and Techniques](#tools-and-techniques)
+- [Setup](#setup)
+- [Credit Card Approvals](#credit-card-approvals)
+- [Bank Marketing Campaign](#bank-marketing-campaign)
+- [Hedge Fund Financial Report](#hedge-fund-financial-report)
+- [Stock Portfolio Analysis](#stock-portfolio-analysis)
+
+## Overview
 
 Delivered connected insights across financial systems by applying structured data workflows, predictive modeling, and optimization techniques to improve decision-making in banking, marketing, and investments.
 
@@ -10,12 +20,12 @@ Delivered connected insights across financial systems by applying structured dat
 3. **Hedge Fund Financial Report:** Analyzed leverage and profitability ratios across sectors, providing insights for hedge fund strategies.
 4. **Stock Portfolio Analysis:** Optimized FAANG stock portfolios using mean-variance optimization, achieving a Sharpe ratio of 3.5.
 
-## Tools and Skills Used: 
+## Tools and Techniques: 
 
 - Python, Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn, PyPortfolioOpt, PostgreSQL.  
 - Data preprocessing, Data pipeline cleaning, Data wrangling, Feature engineering, Data visualization, Supervised learning, Logistic regression, Hyperparameter tuning, Financial modeling, Ratio analysis, Portfolio optimization.
 
-## How to Use
+## Setup
 ```bash
 git clone <repository-url>
 cd <repository-directory>
