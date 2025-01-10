@@ -48,7 +48,7 @@ Key Insights:
 
 ### Bank Marketing Campaign
 
-Objective: Enhanced marketing strategies for a bank’s personal loan campaigns by analyzing customer demographics and campaign outcomes.
+Objective: Enhanced marketing strategies for the bank personal loan campaigns by analyzing customer demographics and campaign outcomes.
 
 Key Tasks:
 - Processed raw data into three structured DataFrames: client, campaign, and economics, each designed for specific analytical purposes.
