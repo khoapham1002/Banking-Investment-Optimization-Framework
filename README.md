@@ -1,4 +1,4 @@
-# Financial Systems Analysis and Solutions
+# Banking - Investment Analysis and Solutions
 YOU CAN CHECK OUT MY [PROJECT NOTEBOOKS](https://github.com/khoapham1002/Banking-Investment-Optimization-Framework/tree/main/notebooks) FIRST!
 
 ## Projects Overview
