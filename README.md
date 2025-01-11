@@ -1,5 +1,5 @@
 # Banking - Investment Analysis and Solutions
-YOU CAN CHECK OUT MY [PROJECT NOTEBOOKS](https://github.com/khoapham1002/Banking-Investment-Optimization-Framework/tree/main/notebooks) FIRST!
+YOU CAN CHECK OUT MY [PROJECT NOTEBOOKS](https://github.com/khoapham1002/Banking-Investment-Optimization-Framework/blob/main/notebooks/framework.ipynb) FIRST!
 
 ## Table of Contents
 
