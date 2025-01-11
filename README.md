@@ -20,8 +20,7 @@ Delivered connected insights across financial systems by applying structured dat
 3. **Hedge Fund Financial Report:** Analyzed leverage and profitability ratios across sectors, providing insights for hedge fund strategies.
 4. **Stock Portfolio Analysis:** Optimized FAANG stock portfolios using mean-variance optimization, achieving a Sharpe ratio of 3.5.
 
-## Tools and Techniques: 
-
+## Tools and Techniques
 - Python, Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn, PyPortfolioOpt, PostgreSQL.  
 - Data preprocessing, Data pipeline cleaning, Data wrangling, Feature engineering, Data visualization, Supervised learning, Logistic regression, Hyperparameter tuning, Financial modeling, Ratio analysis, Portfolio optimization.
 
