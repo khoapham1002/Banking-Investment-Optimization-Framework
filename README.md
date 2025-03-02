@@ -43,8 +43,8 @@ Developed a machine learning model to automate credit card approvals, reducing m
     * Used GridSearchCV to optimize hyperparameters (tol, max_iter) for better performance.
 
 ### Impact & Insights:
-	* Reduced manual workload for banks by automating approval decisions.
-	* Improved risk assessment through data-driven predictions.
+* Reduced manual workload for banks by automating approval decisions.
+* Improved risk assessment through data-driven predictions.
 
 
 
