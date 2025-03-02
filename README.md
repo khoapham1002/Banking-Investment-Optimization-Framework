@@ -1,28 +1,23 @@
 # Banking - Investment Analysis and Solutions
 YOU CAN CHECK OUT MY [PROJECT NOTEBOOKS](https://github.com/khoapham1002/Banking-Investment-Optimization-Framework/blob/main/notebooks/framework.ipynb) FIRST!
 
-## Table of Contents
-
+## Table of Contents   
 - [Overview](#overview)
-- [Tools and Techniques](#tools-and-techniques)
 - [Setup](#setup)
 - [Credit Card Approvals](#credit-card-approvals)
 - [Bank Marketing Campaign](#bank-marketing-campaign)
 - [Hedge Fund Financial Report](#hedge-fund-financial-report)
 - [Stock Portfolio Analysis](#stock-portfolio-analysis)
 
-## Overview
-
+## Overview   
 Delivered connected insights across financial systems by applying structured data workflows, predictive modeling, and optimization techniques to improve decision-making in banking, marketing, and investments.
 
 1. **Credit Card Approvals:** Built a logistic regression model that classified credit card applications with accuracy of 0.798, streamlining the decision-making process.
 2. **Bank Marketing Campaign:** Structured marketing data into PostgreSQL-compatible datasets, enabling scalable analysis of campaign performance.
 3. **Hedge Fund Financial Report:** Analyzed leverage and profitability ratios across sectors, providing insights for hedge fund strategies.
-4. **Stock Portfolio Analysis:** Optimized FAANG stock portfolios using mean-variance optimization, achieving a Sharpe ratio of 3.5.
+4. **Stock Portfolio Analysis:** Optimized FAANG stock portfolios using mean-variance optimization, achieving a Sharpe ratio of 3.5, balancing risk and returns.
 
-## Tools and Techniques
-- Python, Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn, PyPortfolioOpt, PostgreSQL.  
-- Data preprocessing, Data pipeline cleaning, Data wrangling, Feature engineering, Data visualization, Supervised learning, Logistic regression, Hyperparameter tuning, Financial modeling, Ratio analysis, Portfolio optimization.
+
 
 ## Setup
 ```bash
@@ -32,53 +27,82 @@ pip3 install -r requirements.txt
 jupyter notebook bank-marketing-campaign.ipynb
 ```
 
-### Credit Card Approvals
 
-Objective: Automate the credit card approval process using supervised learning.
 
-Key Tasks:
-- Preprocessed raw data by replacing missing values and encoding categorical features.
-- Trained a logistic regression model to classify applications as approved or rejected.
-- Tuned hyperparameters using GridSearchCV to optimize model performance.
+## Credit Card Approvals
+### Tools & Technologies: 
+Python, Pandas, Scikit-Learn, Logistic Regression, GridSearchCV, StandardScaler
 
-Key Insights:
-- Achieved an accuracy of 79.8%, improving the efficiency of the credit card approval process.
-- Provided a scalable pipeline for automating application decisions.
+### Project Overview: 
+Developed a machine learning model to automate credit card approvals, reducing manual effort and improving accuracy.
 
-### Bank Marketing Campaign
+### Key Contributions:
+* Data Preprocessing: Handled missing values, standardized numerical features, and one-hot encoded categorical data.
+* Model Training & Optimization:
+    * Trained a Logistic Regression model, achieving 81.8% accuracy.
+    * Used GridSearchCV to optimize hyperparameters (tol, max_iter) for better performance.
 
-Objective: Enhanced marketing strategies for the bank personal loan campaigns by analyzing customer demographics and campaign outcomes.
+### Impact & Insights:
+	* Reduced manual workload for banks by automating approval decisions.
+	* Improved risk assessment through data-driven predictions.
 
-Key Tasks:
-- Processed raw data into three structured DataFrames: client, campaign, and economics, each designed for specific analytical purposes.
-- Reformatted data to meet PostgreSQL database standards, enabling seamless integration and scalability.
 
-Key Insights:
-- Created clean, consistent datasets for future analysis of campaign success rates.
-- Enabled better tracking of customer behavior and campaign performance.
 
-### Hedge Fund Financial Report
+## Bank Marketing Campaign
+### Tools & Technologies: 
+Python, Pandas, Data Cleaning, SQL Preparation
 
-Objective: Assess financial health and risk metrics across industries.
+### Project Overview: 
+Cleaned and restructured bank marketing campaign data to prepare for database storage and future analytics.
 
-Key Tasks:
-- Calculated leverage ratios (debt-to-equity) and profitability ratios (gross margin) for companies in tech, FMCG, and real estate sectors.
-- Analyzed sector trends, identifying real estate as having the highest leverage ratio (5.69) and FMCG as the least profitable sector (profitability ratio: 0.51).
-- Visualized the positive correlation between leverage and profitability in real estate companies.
+### Key Contributions:
+* Data Cleaning & Structuring:
+    * Created three structured tables (client, campaign, economics) for database ingestion.
+    * Converted categorical variables (e.g., credit default, mortgage) into boolean format.
+    * Created timestamp features from raw date columns.
 
-Key Insights:
-- Provided industry-specific financial insights to guide investment decisions.
-- Enhanced understanding of risk and return dynamics in diverse sectors.
+### Impact & Insights:
+* Enabled structured data storage for easy querying and future campaign analytics.
+* Prepared data for predictive modeling in future marketing strategies.
 
-### Stock Portfolio Analysis
-Objective: Analyze FAANG stocks to determine optimal portfolio allocations.
 
-Key Tasks:
 
-- Calculate expected returns and annualized Sharpe ratio for an equally-weighted portfolio.
-- Find a portfolio that minimizes volatility using mean-variance optimization.
-- Find a portfolio that maximizes the Sharpe ratio using mean-variance optimization.
+## Hedge Fund Financial Report
+### Tools & Technologies: 
+Python, Pandas, Seaborn, Financial Ratio Analysis
 
-Key Insights:
-- Achieved a Sharpe ratio of 3.5 in the optimized portfolio, showcasing how diversification reduces risk.
-- Highlighted efficient investment strategies based on historical stock performance.
+### Project Overview:
+Analyzed financial reports to compute profitability and leverage ratios, helping investment firms assess financial risk.
+
+### Key Contributions:
+* Computed Key Ratios:
+	* Debt-to-Equity Ratio to evaluate company leverage.
+	* Gross Margin Ratio to measure profitability.
+* Industry Insights:
+	* Found that FMCG companies had the lowest profitability ratio.
+	* Real Estate companies had the highest leverage ratio.
+	* Identified a positive correlation between leverage and profitability in real estate firms.
+
+### Impact & Insights:
+	* Provided data-driven financial insights for investment decision-making.
+	* Identified industry-specific financial trends for risk assessment.
+
+
+
+## Stock Portfolio Analysis
+### Tools & Technologies:
+Python, Pandas, PyPortfolioOpt, Mean-Variance Optimization
+
+### Project Overview: 
+Applied Modern Portfolio Theory (MPT) to optimize a FAANG stock portfolio, maximizing return while managing risk.
+
+### Key Contributions:
+* Benchmark Portfolio:
+    * Calculated expected returns and Sharpe ratio for an equally weighted portfolio.
+* Mean-Variance Optimization:
+	* Found a minimum volatility portfolio, optimizing risk reduction.
+	* Identified a Sharpe ratio-maximizing portfolio, optimizing returns.
+
+### Impact & Insights:
+* Provided a data-driven strategy for portfolio allocation.
+* Demonstrated risk-return tradeoffs using financial optimization techniques.
