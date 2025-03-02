@@ -84,8 +84,8 @@ Analyzed financial reports to compute profitability and leverage ratios, helping
 	* Identified a positive correlation between leverage and profitability in real estate firms.
 
 ### Impact & Insights:
-	* Provided data-driven financial insights for investment decision-making.
-	* Identified industry-specific financial trends for risk assessment.
+* Provided data-driven financial insights for investment decision-making.
+* Identified industry-specific financial trends for risk assessment.
 
 
 
