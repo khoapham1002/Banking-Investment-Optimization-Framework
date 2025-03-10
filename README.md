@@ -14,8 +14,8 @@ Delivered connected insights across financial systems by applying structured dat
 
 1. **Credit Card Approvals:** Built a logistic regression model that classified credit card applications with accuracy of 0.798, streamlining the decision-making process.
 2. **Bank Marketing Campaign:** Structured marketing data into PostgreSQL-compatible datasets, enabling scalable analysis of campaign performance.
-3. **Hedge Fund Financial Report:** Analyzed leverage and profitability ratios across sectors, providing insights for hedge fund strategies.
-4. **Stock Portfolio Analysis:** Optimized FAANG stock portfolios using mean-variance optimization, achieving a Sharpe ratio of 3.5, balancing risk and returns.
+3. **Hedge Fund Financial Report:** Analyzed leverage and profitability ratios across industries to provide data-driven insights for hedge fund investment strategies.
+4. **Stock Portfolio Optimization:** Applied Modern Portfolio Theory (MPT) to optimize FAANG stock allocation, minimizing risk and maximizing return using mean-variance optimization.
 
 
 
@@ -69,7 +69,7 @@ Cleaned and restructured bank marketing campaign data to prepare for database st
 
 ## Hedge Fund Financial Report
 ### Tools & Technologies: 
-Python, Pandas, Seaborn, Financial Ratio Analysis
+Python, Pandas, Seaborn, Financial Ratio Analysis, Excel
 
 ### Project Overview:
 Analyzed financial reports to compute profitability and leverage ratios, helping investment firms assess financial risk.
@@ -81,28 +81,33 @@ Analyzed financial reports to compute profitability and leverage ratios, helping
 * Industry Insights:
 	* Found that FMCG companies had the lowest profitability ratio.
 	* Real Estate companies had the highest leverage ratio.
-	* Identified a positive correlation between leverage and profitability in real estate firms.
+	* Found that higher leverage correlated with higher profitability in real estate companies.
 
 ### Impact & Insights:
 * Provided data-driven financial insights for investment decision-making.
 * Identified industry-specific financial trends for risk assessment.
+* Insights can help investors assess financial stability and optimize risk management.
 
 
 
-## Stock Portfolio Analysis
+## Stock Portfolio Optimization
 ### Tools & Technologies:
-Python, Pandas, PyPortfolioOpt, Mean-Variance Optimization
+Python, Pandas, NumPy, Matplotlib, Seaborn, PyPortfolioOpt, Mean-Variance Optimization, Sharpe Ratio
 
-### Project Overview: 
-Applied Modern Portfolio Theory (MPT) to optimize a FAANG stock portfolio, maximizing return while managing risk.
+### Project Overview:
+Optimized a FAANG stock portfolio using **Modern Portfolio Theory (MPT)** to balance risk and return, leveraging **mean-variance optimization** to construct the most efficient asset allocation.
 
 ### Key Contributions:
-* Benchmark Portfolio:
-    * Calculated expected returns and Sharpe ratio for an equally weighted portfolio.
-* Mean-Variance Optimization:
-	* Found a minimum volatility portfolio, optimizing risk reduction.
-	* Identified a Sharpe ratio-maximizing portfolio, optimizing returns.
+* **Benchmark Portfolio Analysis:**
+  * Calculated **expected returns** and **Sharpe ratio** for an **equally weighted** FAANG portfolio.
+* **Minimum Volatility Portfolio:**
+  * Used **Mean-Variance Optimization (MVO)** to construct the portfolio with **lowest risk**.
+  * Identified **optimal stock weights** to minimize portfolio volatility.
+* **Maximum Sharpe Ratio Portfolio:**
+  * Optimized stock allocation to **maximize return per unit of risk**.
+  * Determined **ideal stock weight distribution** for the highest **risk-adjusted return**.
 
 ### Impact & Insights:
-* Provided a data-driven strategy for portfolio allocation.
-* Demonstrated risk-return tradeoffs using financial optimization techniques.
+* Demonstrated **efficient frontier optimization**, showing how **diversification** can reduce investment risk.
+* **Risk-return tradeoff analysis** revealed that an optimized allocation significantly outperforms an equal-weighted approach.
+* **Data-driven portfolio recommendations** can help investors make better-informed decisions.
