@@ -12,8 +12,8 @@ YOU CAN CHECK OUT MY [PROJECT NOTEBOOKS](https://github.com/khoapham1002/Banking
 ## Overview   
 Delivered connected insights across financial systems by applying structured data workflows, predictive modeling, and optimization techniques to improve decision-making in banking, marketing, and investments.
 
-1. **Credit Card Approvals:** Built a logistic regression model that classified credit card applications with accuracy of 0.798, streamlining the decision-making process.
-2. **Bank Marketing Campaign:** Structured marketing data into PostgreSQL-compatible datasets, enabling scalable analysis of campaign performance.
+1. **Credit Card Approvals:** Built a logistic regression model to automate credit card approvals, improving efficiency and accuracy in banking decisions.
+2. **Bank Marketing Campaign:** Cleaned and restructured bank marketing campaign data to prepare for database storage and future analytics.
 3. **Hedge Fund Financial Report:** Analyzed leverage and profitability ratios across industries to provide data-driven insights for hedge fund investment strategies.
 4. **Stock Portfolio Optimization:** Applied Modern Portfolio Theory (MPT) to optimize FAANG stock allocation, minimizing risk and maximizing return using mean-variance optimization.
 
@@ -40,20 +40,23 @@ Developed a machine learning model to automate credit card approvals, reducing m
 * Data Preprocessing: Handled missing values, standardized numerical features, and one-hot encoded categorical data.
 * Model Training & Optimization:
     * Trained a Logistic Regression model, achieving 81.8% accuracy.
+	* Achieved a final accuracy of 79.8% on the test set.
     * Used GridSearchCV to optimize hyperparameters (tol, max_iter) for better performance.
 
 ### Impact & Insights:
-* Reduced manual workload for banks by automating approval decisions.
-* Improved risk assessment through data-driven predictions.
+* Automated decision-making reduces manual processing time.
+* Model can assist banks in filtering out high-risk applicants efficiently.
+* A scalable solution that can be integrated into banking systems for real-time predictions.
+
 
 
 
 ## Bank Marketing Campaign
 ### Tools & Technologies: 
-Python, Pandas, Data Cleaning, SQL Preparation
+Python, Pandas, NumPy, PostgreSQL, Data Cleaning
 
 ### Project Overview: 
-Cleaned and restructured bank marketing campaign data to prepare for database storage and future analytics.
+Structured marketing data into PostgreSQL-compatible datasets, enabling scalable analysis of campaign performance.
 
 ### Key Contributions:
 * Data Cleaning & Structuring:
@@ -61,9 +64,12 @@ Cleaned and restructured bank marketing campaign data to prepare for database st
     * Converted categorical variables (e.g., credit default, mortgage) into boolean format.
     * Created timestamp features from raw date columns.
 
+
 ### Impact & Insights:
+* Split raw data into three structured datasets: client.csv, campaign.csv, and economics.csv.
 * Enabled structured data storage for easy querying and future campaign analytics.
 * Prepared data for predictive modeling in future marketing strategies.
+
 
 
 
