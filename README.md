@@ -10,12 +10,10 @@ YOU CAN CHECK OUT MY [PROJECT NOTEBOOKS](https://github.com/khoapham1002/Banking
 - [Stock Portfolio Analysis](#stock-portfolio-analysis)
 
 ## Overview   
-Delivered connected insights across financial systems by applying structured data workflows, predictive modeling, and optimization techniques to improve decision-making in banking, marketing, and investments.
-
-1. **Credit Card Approvals:** Built a logistic regression model to automate credit card approvals, improving efficiency and accuracy in banking decisions.
-2. **Bank Marketing Campaign:** Cleaned and restructured bank marketing campaign data to prepare for database storage and future analytics.
-3. **Hedge Fund Financial Report:** Analyzed leverage and profitability ratios across industries to provide data-driven insights for hedge fund investment strategies.
-4. **Stock Portfolio Optimization:** Applied Modern Portfolio Theory (MPT) to optimize FAANG stock allocation, minimizing risk and maximizing return using mean-variance optimization.
+- Developed a credit card approval model with 81.8% accuracy, automating risk assessment for banks.
+- Optimized data pipeline for bank marketing analysis, enabling more precise customer targeting.
+- Analyzed financial ratios, identifying industry-specific risk trends for investment decision-making.
+- Optimized a FAANG stock portfolio using mean-variance optimization, balancing risk and returns.
 
 
 
