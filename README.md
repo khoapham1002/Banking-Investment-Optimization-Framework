@@ -10,6 +10,8 @@ YOU CAN CHECK OUT MY [PROJECT NOTEBOOKS](https://github.com/khoapham1002/Banking
 - [Stock Portfolio Analysis](#stock-portfolio-analysis)
 
 ## Overview   
+Delivered connected insights across financial systems by applying structured data workflows, predictive modeling, and optimization techniques to improve decision-making in banking, marketing, and investments.
+
 - Developed a credit card approval model with 81.8% accuracy, automating risk assessment for banks.
 - Optimized data pipeline for bank marketing analysis, enabling more precise customer targeting.
 - Analyzed financial ratios, identifying industry-specific risk trends for investment decision-making.
